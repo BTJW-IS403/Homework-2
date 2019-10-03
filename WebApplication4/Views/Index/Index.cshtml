@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Burgers</title>
+</head>
+<body style="background-image : url(https://image.shutterstock.com/image-photo/delicious-hamburger-on-dark-wooden-260nw-468511007.jpg); background-size : cover;">
+
+    <div style="align-content : center; font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size :22px; color : white; text-shadow: #000 0px 0px 3px,   #000 0px 0px 1px,   #000 0px 0px 1px; ">
+        <h1>Burgers</h1>
+        @Html.Raw((String)ViewBag.Output)
+    </div>
+</body>
+</html>
